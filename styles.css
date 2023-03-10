@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bitter', sans-serif;
+}
+
+a {
+    color: rgb(93, 93, 93);
+}
+
+.content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+.logo-text {
+    position: relative;
+    width: 100%;
+    background: black;
+    opacity: 0.75;
+    color: white;
+    top: -15rem;
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo-text2 {
+    position: relative;
+    width: 100%;
+    background: black;
+    opacity: 0.75;
+    color: white;
+    top: -15rem;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 4px;
+}
+
+.attribution {
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+    padding: 1px;
+    font-weight: 900;
+    font-size: 1em;
+}

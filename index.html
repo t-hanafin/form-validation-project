@@ -5,11 +5,75 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
-  <meta name="viewport" content="width=device-width">
-  <title>My test page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+  <title>Voice Your Displeasure</title>
 </head>
 <body>
 
+
+  <div class="content">
+    <div class="logo">
+      <img src="./VYP_child.jpg" alt="VYP Child" class="logo-image">
+      <h1 class="logo-text">VYD</h1>
+      <h1 class="logo-text2">Voice Your Displeasure</h1>
+      <p class="attribution">Photo by 
+          <a href="https://unsplash.com/@weekendw0rrier?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Franco</a> 
+          on <a href="https://unsplash.com/photos/XECZHb6NoFo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+    </div>
+
+
+    <div class="text">
+      <p>This is what the internet was built for: Voice Your Displeasure!</p>
+      <p>If you're fed up and you've just had enough already, sign up <em>now</em> to let <em>everyone</em> know it.</p>
+    </div>
+
+    <form action="#">
+      <div class="form">
+        <p class="form-title">Sign up</p>
+        <div class="input">
+          <label for="first-name">First name</label>
+          <input type="text" name="first-name" id="first-name" required>
+        </div>
+
+        <div class="input">
+          <label for="last-name">Last name</label>
+          <input type="text" name="last-name" id="last-name">
+        </div>
+
+        <div class="input">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="input">
+          <label for="phone-number">Phone number</label>
+          <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+        </div>
+
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="password" name="passwor" id="passwor" required>
+        </div>
+
+        <div class="input">
+          <label for="confirm-password">Confirm password</label>
+          <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+      </div>
+
+      <div class="button">
+        <button type="submit">Create Account</button>
+      </div>
+
+    </form>
+
+    <div class="log-in">
+      <p>Already have an account?</p><a href="#">Log in</a>
+    </div>
+
+  </div>
 
 
 </body>
