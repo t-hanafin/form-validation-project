@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Helvetica', 'Bitter', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 
 a {
@@ -67,7 +67,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .right-text > p {
@@ -76,6 +76,7 @@ a {
 
 .right-text > h3 {
     font-size: 2em;
+    text-transform: uppercase;
 }
 
 fieldset {
@@ -88,7 +89,7 @@ fieldset {
 }
 
 legend {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-bottom: 15px;
 }
 
@@ -96,13 +97,16 @@ legend {
     display: flex;
     flex-direction: column;
     flex-basis: 49%;
+    text-transform: uppercase;
 }
 
 button {
-    border: 2px solid lightgrey;
+    background-color: rgb(228, 49, 49);
+    border: 0px;
     border-radius: 5px;
     padding: 5px 15px;
-    margin-bottom: 30px;
+    margin-bottom: 1em;
+    font-size: 2em;
 }
 
 .log-in {
