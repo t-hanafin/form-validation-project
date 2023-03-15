@@ -13,66 +13,58 @@
 
 
   <div class="content">
-    <div class="logo">
-      <img src="./VYP_child.jpg" alt="VYP Child" class="logo-image">
-      <h1 class="logo-text">VYD</h1>
-      <h1 class="logo-text2">Voice Your Displeasure</h1>
+    <div class="left">
+      <div class="logo">
+        <img src = "./sad-face-svgrepo-com.svg" class="sad-face-icon" alt="unhappy face"/>
+        <h1>VYD</h1>
+      </div>
       <p class="attribution">Photo by 
           <a href="https://unsplash.com/@weekendw0rrier?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryan Franco</a> 
           on <a href="https://unsplash.com/photos/XECZHb6NoFo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </p>
     </div>
 
-
-    <div class="text">
-      <p>This is what the internet was built for: Voice Your Displeasure!</p>
-      <p>If you're fed up and you've just had enough already, sign up <em>now</em> to let <em>everyone</em> know it.</p>
-    </div>
-
-    <form action="#">
-      <div class="form">
-        <p class="form-title">Sign up</p>
-        <div class="input">
-          <label for="first-name">First name</label>
-          <input type="text" name="first-name" id="first-name" required>
-        </div>
-
-        <div class="input">
-          <label for="last-name">Last name</label>
-          <input type="text" name="last-name" id="last-name">
-        </div>
-
-        <div class="input">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" required>
-        </div>
-
-        <div class="input">
-          <label for="phone-number">Phone number</label>
-          <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
-        </div>
-
-        <div class="input">
-          <label for="password">Password</label>
-          <input type="password" name="passwor" id="passwor" required>
-        </div>
-
-        <div class="input">
-          <label for="confirm-password">Confirm password</label>
-          <input type="password" name="confirm-password" id="confirm-password" required>
-        </div>
+    <div class="right">
+      <div class="right-text">
+        <p><em>This</em> is why we built the internet.</p> 
+        <h3>Voice Your Displeasure!</h3>
+        <p>With VYD, you can <b>finally</b> let <b>everyone</b> know how you feel.</p>
+      </div>
+      <form class="sign-up-form">
+        <fieldset>
+          <legend>Sign up now</legend>
+          <div class="input">
+            <label for="first_name">First name</label>
+            <input type="text" id="first_name" name="first_name">
+          </div>
+          <div class="input">
+            <label for="last_name">Last name</label>
+            <input type="text" id="last_name" name="last_name">
+          </div>
+          <div class="input">
+            <label for="user_email">Email address</label>
+            <input type="email" id="user_email" name="email">
+          </div>
+          <div class="input">
+            <label for="phone_number">Phone number</label>
+            <input type="tel" id="phone_number" name="phone_number">
+          </div>
+          <div class="input">
+            <label for="user_password">Password</label>
+            <input type="password" id="user_password" name="password">  
+          </div>
+          <div class="input">
+            <label for="user_password">Confirm password</label>
+            <input type="password" id="confirmed_user_password" name="confirmed_password">  
+          </div>
+        </fieldset>
+        <button>Join VYD</button>
+      </form>
+      <div class="log-in">
+        Already have an account? <a href="#">Log in</a>
       </div>
 
-      <div class="button">
-        <button type="submit">Create Account</button>
-      </div>
-
-    </form>
-
-    <div class="log-in">
-      <p>Already have an account?</p><a href="#">Log in</a>
     </div>
-
   </div>
 
 

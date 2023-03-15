@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Helvetica', 'Bitter', sans-serif;
 }
 
 a {
@@ -14,39 +14,97 @@ a {
     height: 100vh;
 }
 
-img {
-    height: 100%;
-    width: auto;
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+    background-image: url(./VYP_child.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
 }
 
-.logo-text {
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 100%;
+    top: 60vh;
+    gap: 1vh;
+    padding: 10px;
     background: black;
     opacity: 0.75;
     color: white;
-    top: -15rem;
-    text-align: center;
-    font-size: 3em;
-}
-
-.logo-text2 {
-    position: relative;
-    width: 100%;
-    background: black;
-    opacity: 0.75;
-    color: white;
-    top: -15rem;
-    text-align: center;
     font-size: 2em;
-    padding-bottom: 4px;
+}
+
+.sad-face-icon {
+    width: 2em;
+    filter: invert(99%);
 }
 
 .attribution {
     position: relative;
-    bottom: 8rem;
-    text-align: center;
-    padding: 1px;
-    font-weight: 900;
+    top: 80vh;
+    padding: 5px;
     font-size: 1em;
+    background: black;
+    opacity: .66;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 15px;
+    width: 60vw;
+}
+
+.right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 45px;
+}
+
+.right-text > p {
+    font-size: 1.5em;
+}
+
+.right-text > h3 {
+    font-size: 2em;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px;
+    gap: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 49%;
+}
+
+button {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+}
+
+.log-in {
+    font-weight: 900;
 }
