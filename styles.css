@@ -61,7 +61,7 @@ a {
     justify-content: center;
     padding: 2em;
     gap: 15px;
-    width: 60vw;
+    width: 55vw;
 }
 
 .right-text {
@@ -72,7 +72,7 @@ a {
 }
 
 .right-text > h3 {
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
 }
 
@@ -99,6 +99,11 @@ legend {
     flex-direction: column;
     flex-basis: 49%;
     text-transform: uppercase;
+}
+
+input:focus {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+    border: 1px solid blue;
 }
 
 button {
